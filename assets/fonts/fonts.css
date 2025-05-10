@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("./Rubik/ttf/Rubik-Regular.ttf") format("truetype"),
+    url("./Rubik/woff/Rubik-Regular.woff") format("woff"),
+    url("./Rubik/woff2/Rubik-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone";
+    src: url("./Yanone/ttf/YanoneKaffeesatz-Regular.ttf") format("truetype"),
+    url("./Yanone/woff/YanoneKaffeesatz-Regular.woff") format("woff")
+    url("./Yanone/woff2/YanoneKaffeesatz-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone";
+    src: url("./Yanone/ttf/YanoneKaffeesatz-Bold.ttf") format("truetype"),
+    url("./Yanone/woff/YanoneKaffeesatz-Bold.woff") format("woff")
+    url("./Yanone/woff2/YanoneKaffeesatz-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: bold;
+}
