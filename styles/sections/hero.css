@@ -1,0 +1,88 @@
+.hp__section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+.hp__section .h__main {
+    position: relative;
+    padding: 100px 74px 40px 74px;
+    width: 50%;
+    height: 600px;
+    border-radius: var(--border-radius-low);
+    background-color: var(--background-color-orange);
+    background-image: url("../../assets/images/svg/first.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hp__section .h__main h1 {
+    width: 577px;
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 72px;
+    color: var(--text-color-light-green);
+    margin-bottom: 10px;
+}
+
+.hp__section .h__main .h__main-description p {
+    width: 360px;
+    line-height: 19px;
+    color: var(--text-color-pale);
+}
+
+.hp__section .h__info {
+    position: relative;
+    padding: 30px;
+    width: 50%;
+    height: 600px;
+    border-radius: var(--border-radius-low);
+    background-color: var(--background-color-dark-green);
+    background-image: url("../../assets/images/svg/info.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h__main-start {
+    position: absolute;
+    width: calc(100% - 148px); /* Это 74px + 74px */
+    bottom: 0;
+    background-color: var(--background-color-light-green);
+    border-radius: var(--border-radius-large);
+    font-family: "Yanone";
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color-dark-green);
+    bottom: 30px;
+    transition: var(--transition-medium);
+}
+
+.h__main-start:hover {
+    background-color: var(--background-color-yellow);
+}
+
+.hp__section .h__info h5 {
+    text-transform: uppercase;
+    font-family: "Yanone";
+    font-size: 26px;
+    color: var(--text-color-light-green);
+    line-height: 26px;
+}
+
+.hp__section .h__info .left {
+    width: 190px;
+}
+
+.hp__section .h__info .right {
+    width: 135px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}

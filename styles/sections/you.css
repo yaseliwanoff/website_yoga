@@ -1,0 +1,87 @@
+.hp__section-nowrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.y__blocks {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color-orange);
+    border-radius: var(--border-radius-medium);
+}
+
+.y__blocks .y__block {
+    padding-block: 20px;
+    padding-inline: 40px;
+    width: 100%;
+    color: var(--text-color-pale);
+    border: 1px solid var(--background-color-pale);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: var(--transition-fast);
+}
+
+.y__blocks .y__block:hover {
+    background-color: var(--background-color-yellow);
+    color: var(--text-color-dark-green);
+    border: none;
+}
+
+.y__blocks .y__block p {
+    width: 560px;
+    font-size: 21px;
+    line-height: 19px;
+}
+
+.y__blocks .y__block:hover h3 {
+    color: var(--text-color-dark-green);
+}
+
+.y__blocks h2 {
+    font-family: "Yanone";
+    font-size: 66px;
+    text-transform: uppercase;
+    color: var(--text-color-light-green);
+    padding-block: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.y__blocks .y__block .titl {
+    font-weight: 700;
+    font-family: "Yanone";
+    font-size: 50px;
+    color: var(--text-color-light-green);
+}
+
+.y__sam {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    padding-inline: 50px;
+    background-color: var(--background-color-light-green);
+    color: var(--background-color-dark-green);
+    border-radius: var(--border-radius-medium);
+}
+
+.y__sam .scorb {
+    font-family: "Yanone";
+    font-size: 134px;
+    font-weight: 400;
+}
+
+.y__sam h3 {
+    text-align: center;
+    font-size: var(--desktop-text-title-size-h3);
+    font-family: "Yanone";
+    width: 420px;
+    text-transform: uppercase;
+    line-height: 45px;
+}

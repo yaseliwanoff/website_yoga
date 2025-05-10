@@ -1,0 +1,68 @@
+.f__main {
+    position: relative;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-dark-green);
+    color: var(--text-color-light-green);
+    padding: 50px;
+    width: 50%;
+    height: 600px;
+}
+
+.panel {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.panel img {
+    width: 100%;
+    display: block;
+}
+
+.panel p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color-light-green);
+    font-size: 16px;
+    z-index: 2;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.f__info {
+    overflow: hidden;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-dark-green);
+    color: var(--text-color-light-green);
+    width: 50%;
+    height: 600px;
+}
+
+.f__info .panel img {
+    position: relative;
+    width: 891px;
+}
+
+.f__info .panel p {
+    position: absolute;
+}
+
+.f__main h2 {
+    font-family: "Yanone";
+    font-size: 66px;
+    text-transform: uppercase;
+    width: 486px;
+}
+
+.f__main .description {
+    position: absolute;
+    bottom: 50px;
+    width: 472px;
+}
+
+.f__main .description .mark {
+    margin-top: 3px;
+    opacity: 0.6;
+}

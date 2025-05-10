@@ -1,0 +1,59 @@
+.header__wrapper {
+    margin-top: 10px;
+    padding: 22px 50px;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header__logo {
+    font-family: "Yanone";
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--text-color-light-green);
+    font-size: 20px;
+}
+
+.header .header__nav .header__nav-menu {
+    cursor: pointer;
+    display: flex;
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.header .header__nav .header__nav-menu .header__nav-item .header__nav-link {
+    padding: 16px;
+    color: var(--text-color-light-green);
+    text-decoration: none;
+    transition: var(--transition-medium);
+}
+
+.header .header__nav .header__nav-menu .header__nav-item:hover .header__nav-link {
+    text-decoration: underline;
+}
+
+.header .start {
+    display: flex;
+    align-items: center;
+    color: var(--text-color-light-green);
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.header .start img {
+    transform: translateX(5px);
+    width: 24px;
+    vertical-align: middle;
+    transition: var(--transition-medium);
+}
+
+.header .start:hover img {
+    transform: translateX(12px);
+}
+

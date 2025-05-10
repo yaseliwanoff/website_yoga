@@ -1,0 +1,58 @@
+.hp__section .a__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    border-radius: var(--border-radius-low);
+    background-color: var(--background-color-orange);
+    background-image: url("../../assets/images/svg/about__main.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hp__section .a__main h2 {
+    width: 503px;
+    font-size: var(--desktop-text-title-size-h2);
+    color: var(--text-color-dark-green);
+    line-height: 66px;
+    font-family: "Yanone";
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hp__section .a__blocks {
+    padding: 10px;
+    position: relative;
+    width: 50%;
+    height: 600px;
+    border-radius: var(--border-radius-low);
+    background-color: var(--background-color-pink);
+}
+
+.hp__section .a__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.hp__section .a__blocks .a__block {
+    background-color: var(--background-color-pale);
+    height: 138px;
+    border-radius: 20px;
+    padding: 20px 27px;
+}
+
+.hp__section .a__blocks .a__block h4 {
+    color: var(--text-color-dark-green);
+    font-size: var(--desktop-text-title-size-h4);
+    margin-bottom: 8px;
+}
+
+.hp__section .a__blocks .a__block .a__block-description {
+    width: 220px;
+    line-height: 19px;
+    color: var(--text-color-dark-green);
+}

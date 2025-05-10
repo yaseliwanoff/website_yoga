@@ -1,0 +1,67 @@
+.g__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    width: 100%;
+    height: 300px;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-yellow);
+    color: var(--text-color-orange);
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: var(--desktop-text-title-size-h3);
+}
+
+.g__first .description {
+    text-align: center;
+    width: 730px;
+}
+
+.g__middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    width: 100%;
+    height: 300px;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-pink);
+    color: var(--text-color-pale);
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: var(--desktop-text-title-size-h3);
+}
+
+.g__middle .description {
+    text-align: center;
+    width: 730px;
+}
+
+.g__last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    width: 100%;
+    height: 300px;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-dark-green);
+    color: var(--text-color-light-green);
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: var(--desktop-text-title-size-h3);
+}
+
+.g__last .description {
+    text-align: center;
+    width: 500px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
