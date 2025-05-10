@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    max-width: var(--breakpoint-desktop);
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 10px;
+}
+
+.hp__section {
+    margin-top: 10px;
+}
+
+html, body {
+    font-family: "Rubik" !important;
+    font-weight: 400 !important;
+    background-color: var(--background-color-pale);
+    color: #000000;
+}

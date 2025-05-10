@@ -1,0 +1,71 @@
+@import url("./layout.css");
+@import url("./devices.css");
+@import url("./reset.css");
+@import url("../assets/fonts/fonts.css");
+
+@import url("./sections/header.css");
+@import url("./sections/hero.css");
+@import url("./sections/about.css");
+@import url("./sections/else.css");
+@import url("./sections/group.css");
+@import url("./sections/you.css");
+@import url("./sections/fiziology.css");
+@import url("./sections/letters.css");
+@import url("./sections/how.css");
+@import url("./sections/free.css");
+@import url("./sections/mesto.css");
+
+:root {
+    /* Стили для цвета текста */
+    --text-color-light-green: #D5DE2B;
+    --text-color-pale: #FCE7CC;
+    --text-color-dark-green: #4D5A0B;
+    --text-color-orange: #E26026;
+
+    /* Стили для цвета блоков */
+    --background-color-light-green: #D5DE2B;
+    --background-color-dark-green: #4D5A0B;
+    --background-color-orange: #E26026;
+    --background-color-pink: #F2A3C2;
+    --background-color-pale: #FCE7CC;
+    --background-color-yellow: #FFCD84;
+
+    /* Перменные брекпоинтов экранов */
+    --breakpoint-mobile: 320px;
+    --breakpoint-tablet: 630px;
+    --breakpoint-desktop: 1844px;
+    --padding-container: 10px;
+
+    /* Размер текста */
+    --desktop-text-title-size-h1: 80px;
+    --desktop-text-title-size-h2: 66px;
+    --desktop-text-title-size-h3: 50px;
+    --desktop-text-title-size-h4: 48px;
+    --desktop-text-description-size: 16px;
+    --desktop-text-button-size: 30px;
+    --desktop-text-navbar-size: 14px;
+
+    --table-text-title-size-h1: 60px;
+    --table-text-title-size-h2: 48px;
+    --table-text-title-size-h3: 36px;
+    --table-text-title-size-h4: 30px;
+    --table-text-description-size: 15px;
+    --table-text-button-size: 30px;
+    --table-text-navbar-size: 16px;
+
+    --mobile-text-title-size-h1: 40px;
+    --mobile-text-title-size-h2: 32px;
+    --mobile-text-title-size-h3: 26px;
+    --mobile-text-title-size-h4: 22px;
+    --mobile-text-description-size: 14px;
+    --mobile-text-button-size: 30px;
+    --mobile-text-navbar-size: 16px;
+
+    /* Переменные эффектов при наведении */
+    --transition-medium: 0.3s ease-in-out;
+
+    /* Переменные закругления углов */
+    --border-radius-large: 300px;
+    --border-radius-medium: 60px;
+    --border-radius-low: 30px;
+}

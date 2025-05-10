@@ -1,0 +1,22 @@
+/* Дектопы
+@media (max-width: var(--breakpoint-desktop)) and (min-width: var(--breakpoint-tablet)) {
+  .container {
+    padding-inline: 20px !important;
+  }
+} */
+
+/* Планшеты */
+@media (max-width: calc(var(--breakpoint-desktop) - 1px)) {
+    .container {
+      max-width: var(--breakpoint-tablet);
+    }
+}
+
+/* Мобильные */
+@media (max-width: calc(var(--breakpoint-tablet) - 1px)) {
+    .container {
+      max-width: var(--breakpoint-mobile);
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+}
