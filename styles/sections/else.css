@@ -11,9 +11,13 @@
 }
 
 .hp__section .e__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     width: 50%;
     height: 600px;
-    padding: 210px 214px;
+    /* padding: 210px 214px; */
     border-radius: var(--border-radius-medium);
     background-color: var(--background-color-dark-green);
     background-image: url("../../assets/images/svg/green.svg");

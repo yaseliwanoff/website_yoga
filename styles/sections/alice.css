@@ -1,0 +1,55 @@
+.a__more {
+    position: relative;
+    width: 50%;
+    height: 600px;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-pink);
+    color: var(--text-color-dark-green);
+    font-family: "Yanone";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 30px;
+    background-image: url("../../assets/images/svg/alice.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a__more h3 {
+    width: 350px;
+}
+
+.a__more .id {
+    width: auto;
+    right: 30px;
+    bottom: 30px;
+    position: absolute;
+}
+
+.a__info {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.a__info .block {
+    background-color: var(--background-color-dark-green);
+    color: var(--background-color-light-green);
+    padding: 14px 50px;
+    border-radius: var(--border-radius-low);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.a__info .block h2 {
+    font-family: "Yanone";
+    font-size: 70px;
+}
+
+.a__info .block .description p {
+    width: 430px;
+}

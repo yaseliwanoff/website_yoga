@@ -1,0 +1,58 @@
+.c__main {
+    width: 50%;
+    height: 600px;
+    position: relative;
+    background-color: var(--background-color-yellow);
+    color: var(--text-color-dark-green);
+    border-radius: var(--border-radius-medium);
+    padding: 73px;
+}
+
+.c__main h2 {
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 66px;
+    text-transform: uppercase;
+    width: 843px;
+}
+
+.c__image {
+    border-radius: var(--border-radius-medium);
+    width: 50%;
+    height: 600px;
+    background-color: var(--background-color-yellow);
+    background-image: url("../../assets/images/svg/women.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c__main div {
+    position: absolute;
+    bottom: 20px;
+}
+
+.c__main div p {
+    width: 737px;
+    margin-bottom: 20px;
+    line-height: 19px;
+}
+
+.c__main div .read {
+    width: 100%;
+    height: 50px;
+    border-radius: var(--border-radius-large);
+    font-family: "Yanone";
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: var(--text-color-dark-green);
+    color: var(--text-color-pale);
+    transition: var(--transition-medium)
+}
+
+.c__main div .read:hover {
+    background-color: var(--background-color-yellow);
+    color: var(--text-color-dark-green);
+}

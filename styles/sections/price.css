@@ -1,0 +1,176 @@
+.p__low {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color-pale);
+    background-color: var(--background-color-dark-green);
+    border-radius: var(--border-radius-medium);
+    padding: 50px;
+    width: 50%;
+    height: 600px;
+}
+
+.p__low h2 {
+    font-family: "Yanone";
+    font-size: 66px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.p__low .p__low-more {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    line-height: 19px;
+    gap: 10px;
+    margin-bottom: 43px;
+}
+
+.p__low .p__low-price {
+    width: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p__low .p__low-price .lash {
+    font-weight: 300;
+    font-family: "Yanone";
+    font-size: 76px;
+}
+
+.p__low .p__low-price .price {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p__low .p__low-price {
+    margin-bottom: 33px;
+}
+
+.p__low .p__low-price .price .older-price {
+    text-decoration: line-through;
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+.p__low .p__low-price .price .actual-price {
+    font-size: 22px;
+}
+
+.p__low .desc {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.p__low .start {
+    position: absolute;
+    bottom: 50px;
+    width: calc(100% - 100px);
+    height: 50px;
+    font-size: 30px;
+    font-family: "Yanone";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color-dark-green);
+    background-color: var(--background-color-light-green);
+    border-radius: var(--border-radius-large);
+    transition: var(--transition-medium);
+}
+
+.p__low .start:hover {
+    background-color: var(--background-color-yellow);
+    color: var(--text-color-dark-green);
+}
+
+.p__hight {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color-pale);
+    background-color: var(--background-color-orange);
+    border-radius: var(--border-radius-medium);
+    padding: 50px;
+    width: 50%;
+    height: 600px;
+}
+
+.p__hight h2 {
+    font-family: "Yanone";
+    font-size: 66px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.p__hight .p__hight-more {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    line-height: 19px;
+    gap: 10px;
+    margin-bottom: 43px;
+}
+
+.p__hight .p__hight-price {
+    width: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p__hight .p__hight-price .lash {
+    font-weight: 300;
+    font-family: "Yanone";
+    font-size: 76px;
+}
+
+.p__hight .p__hight-price .price {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p__hight .p__hight-price {
+    margin-bottom: 33px;
+}
+
+.p__hight .p__hight-price .price .older-price {
+    text-decoration: line-through;
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+.p__hight .p__hight-price .price .actual-price {
+    font-size: 22px;
+}
+
+.p__hight .desc {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.p__hight .start {
+    position: absolute;
+    bottom: 50px;
+    width: calc(100% - 100px);
+    height: 50px;
+    font-size: 30px;
+    font-family: "Yanone";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color-dark-green);
+    background-color: var(--background-color-light-green);
+    border-radius: var(--border-radius-large);
+    transition: var(--transition-medium);
+}
+
+.p__hight .start:hover {
+    background-color: var(--background-color-yellow);
+    color: var(--text-color-dark-green);
+}
+

@@ -24,3 +24,12 @@
     font-weight: 700;
     font-style: bold;
 }
+
+@font-face {
+    font-family: "Yanone";
+    src: url("./Yanone/ttf/YanoneKaffeesatz-Light.ttf") format("truetype"),
+    url("./Yanone/woff/YanoneKaffeesatz-Light.woff") format("woff")
+    url("./Yanone/woff2/YanoneKaffeesatz-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
